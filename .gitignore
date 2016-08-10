@@ -1,0 +1,9 @@
+﻿# 以'#'开始的行，被视为注释.                                                                                                                          
+.idea/
+dist/
+node_modules/
+typings/
+npm*.log
+npm*.log.*
+src/**/*.js
+src/**/*.js.map
