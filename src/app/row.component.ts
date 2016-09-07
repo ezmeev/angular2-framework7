@@ -11,7 +11,8 @@ import {CityService} from '../app/city.service';
 
 })
 export  class RowComponent implements OnInit {
-    @Input() city: City;
+    @Input("city")
+    city: City;
 
     constructor() {
         this.city= new City();

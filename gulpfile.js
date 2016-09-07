@@ -18,6 +18,7 @@ const minimist = require('minimist');
 
 var assetJs= {
     Debug: [
+
         'node_modules/es6-shim/es6-shim.min.js',
         'node_modules/systemjs/dist/system-polyfills.js',
         'node_modules/angular2/bundles/angular2-polyfills.js',
@@ -27,8 +28,6 @@ var assetJs= {
         'node_modules/angular2/bundles/router.min.js',
         'node_modules/angular2/bundles/http.min.js',
         'node_modules/immutable/dist/immutable.js'
-
-
     ],
     Release: []
 };
